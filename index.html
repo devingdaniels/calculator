@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons8-math-50.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main class="main">
+        <div id="calculatorContainer">
+            <div id="displayContainer">
+                <div id="result"></div>
+                <div id="input"></div>
+            </div>
+
+            <button id="clearAll" class="clearAll buttonStyle" value="clearAll">AC</button>
+            <button id="backspace" class="calcButton" value="backspace">C</button>
+            <button id="exponent" class="calcButton" value="^" data-type="operator">x^</button>
+            <button id="multiply" class="calcButton" value="*" data-type="operator">&#215</button>
+            <button id="nine" class="calcButton" value="9" data-type="number">9</button>
+            <button id="eight" class="calcButton" value="8" data-type="number">8</button>
+            <button id="seven" class="calcButton" value="7" data-type="number">7</button>
+            <button id="divide" class="calcButton" value="/" data-type="operator">&#247</button>
+            <button id="six" class="calcButton" value="6" data-type="number">6</button>
+            <button id="five" class="calcButton" value="5" data-type="number">5</button>
+            <button id="four" class="calcButton" value="4" data-type="number">4</button>
+            <button id="minus" class="calcButton" value="-" data-type="operator">&#45</button>
+            <button id="three" class="calcButton" value="3" data-type="number">3</button>
+            <button id="two" class="calcButton" value="2" data-type="number">2</button>
+            <button id="one" class="calcButton" value="1" data-type="number">1</button>
+            <button id="plus" class="calcButton" value="+" data-type="operator">&#43</button>
+            <button id="zero" class="calcButton" value="0" data-type="number">0</button>
+            <button id="decimal" class="calcButton" value="." data-type="decimal">.</button>
+            <button id="equal" class="equal buttonStyle" value="=" data-type="equal">=</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            Copyright©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+
+            <a href="https://github.com/devingdaniels" target="_blank">
+               - GitHub: devingdaniels</a>
+        </p>
+
+    </footer>
+</body>
+
+</html>
